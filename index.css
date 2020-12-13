@@ -1,6 +1,12 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 /**
  * Header CSS
  */
+
 header {
     position: fixed;
     top: 0;
@@ -19,37 +25,41 @@ header a {
 
 header table {
     width: 100%;
-}  
+}
+
+.purple-col {
+    background-color: blueviolet;
+}
 
 /**
    * Content CSS
    */
+
 #content-wrapper {
     min-height: 100%;
     /* sticky footer */
     box-sizing: border-box;
-    margin-top: 20px;
-    padding-bottom: 100px;
+    margin-bottom: -50px;
+    padding-bottom: 50px;
 }
 
-.help-div {
-    margin-top:25px;
+p {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
-.aboutUs-div {
-    margin-top:30px;
-    margin-bottom:30px;
-}
 /**
    * Footer CSS
    */
+
+.push {
+    height: 50px;
+}
+
 footer {
     box-sizing: border-box;
-    height: 100px;
+    height: 50px;
+    line-height: 50px;
     background-color: #eee;
     border-top: 1px solid #e0e0e0;
-    padding-top: 35px;
-   position: absolute;
-    width: 100%;
-    bottom: 0;
 }
