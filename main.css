@@ -7,7 +7,8 @@ body {
 label {
     display: block;
     margin-bottom: 5px;
-    
+    margin-right: 20px;
+        
 }
 
 input, button  {
