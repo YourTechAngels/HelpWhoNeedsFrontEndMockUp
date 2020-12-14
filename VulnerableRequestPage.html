@@ -38,30 +38,32 @@
         <!-- Content HTML goes here -->
         <div class="mui--appbar-height"></div>
         <h1 class="mui--text-center">Request Task</h1>
-        <div class="mui-container">
+        <!-- <div class="mui-container"> -->
          <form class="mui-form">
             <div class="mui-row">
                 <div class="mui-col-xs-12 mui-col-md-12">
-                    <label for='label-dropdown' class='mui-col-xs-12 mui-col-md-12'> Task
-                        <select id='label-dropdown' value='Choose a task' name="Select a Task">
+                    <label for='label-dropdown' class='mui-col-xs-6 mui-col-md-6'> Task
+                        <select id='label-dropdown'  value='Choose a task' name="Select a Task">
                             <option>Shopping for essentials</option>
                             <option>Collecting a prescription</option>
                             <option>Accompanying for GP Appointment</option>
                             <option>Virtual chat/call</option>
                         </select> 
                 </label>
-            </div>
+            </div> </div>
+            
 
             <div class="mui-row">
                 <div class="mui-col-xs-12 mui-col-md-12">
                     <label for="Task summary" class="mui-col-xs-12 mui-col-md-12">Task Summary</label>
-                    <textarea id="textArea" class="mui-col-xs-12 mui-col-md-6" name='Task Summary' rows='4'
-                        cols='12'></textarea>
+                    <textarea id="textArea" class="mui-col-xs-6 mui-col-md-6" name='Task Summary' rows='4'
+                        cols='4'></textarea>
                 </div>
-            </div> </br>
-            <div class='"mui-col-xs-12 mui-col-md-12'>
-                <p> Please select preferred day or date:</p>
-            </div>
+                 </br>
+                 <div class="mui-row">
+                <div class='"mui-col-xs-12 mui-col-md-12'>
+                <label>  Please select preferred day or date:</label>
+            </div> </div>
             <div class="mui-row">
                 <div class="mui-col-xs-12 mui-col-md-6">
                     <label for='radio button' class='mui-col-xs-12 mui-col-md-12'> Today
@@ -71,6 +73,7 @@
                         </select> </div>
                 </label>
             </div>
+        </div>
 
             <div class="mui-row">
                 <div class="mui-col-xs-12 mui-col-md-12">
@@ -80,22 +83,23 @@
 
                     </label>
                 </div>
-
+           
             </div>
             <div class="mui-row">
                 <div class="mui-col-xs-12 mui-col-md-1">
                     <button id="Search-button" class="mui-btn mui-btn--raised"
                         onclick="location.href='#'">Search</button>
                 </div>
-            </div>
+            </div>   </div>
         </form>
+    </div>
     </div>
         <footer>
             <div class="mui-container mui--text-center">
                 Made by <a href="https://github.com/YourTechAngels">YourTechAngels</a>
             </div>
         </footer>
-        </div>
+      
   
 </body>
 
