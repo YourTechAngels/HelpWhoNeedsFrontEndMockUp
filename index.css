@@ -94,3 +94,12 @@ form {
     font-weight: bold;
     margin-top:10px;
 }
+/*Login form*/
+.login-form {
+    background-color: white;
+    width: 60%;
+    margin: 0 auto;
+    padding: 30px;
+    border: 0px;
+
+}
