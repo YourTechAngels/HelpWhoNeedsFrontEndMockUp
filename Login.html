@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HelpWhoNeeds</title>
+    <link href="https://cdn.muicss.com/mui-0.10.3/css/mui.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    <header class="mui-appbar mui--z1 purple-col">
+        <!-- Appbar HTML goes here -->
+        <div class="mui-container">
+            <table>
+                <tr class="mui--appbar-height">
+                    <td class="mui--text-title">Help Who Needs</td>
+                    <td class="mui--text-right">
+                        <ul class="mui-list--inline mui--text-body2">
+                            <li><a href="Landing.html">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </header>
+    <div id="content-wrapper">
+        <!-- Content HTML goes here -->
+        <div class="mui--appbar-height"></div>
+        <div class="mui-container">
+            <main>
+                <form class="login-form">
+                    <h1>Login</h1>
+                    <!--Personal info-->
+                    <div class="mui-row">
+                        <div class="mui-col-xs-12 mui-col-md-6">
+                            <label for="username-input">Username</label>
+                            <input id="username-input" class="mui-col-xs-12 mui-col-md-12"
+                                placeholder="Enter Username"></input>
+                        </div>
+                    </div>
+
+                    <div class="mui-row">
+                        <div class=" mui-col-xs-12 mui-col-md-6">
+                            <label for="password-input">Password</label>
+                            <input id="password-input" class="mui-col-xs-12 mui-col-md-12"
+                                placeholder="Enter Password"></input>
+                        </div>
+                    </div>
+
+                    <div class="mui-row">
+                        <div class=" mui-col-xs-12 mui-col-md-6">
+                            <button class="mui-btn mui-btn--raised" onclick="location.href='Login.html'">Sign
+                                In</button>
+                            <a href="#">Forgot Password</a>
+                            <label id="register">Register as a Volunteer</label>
+                            <button class="mui-btn mui-btn--raised" onclick="location.href='Registration.html'">Sign
+                                Up</button>
+                        </div>
+                    </div>
+
+                </form>
+            </main>
+        </div>
+    </div>
+    <footer>
+        <div class="mui-container mui--text-center">
+            Made by <a href="https://github.com/YourTechAngels">YourTechAngels</a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
