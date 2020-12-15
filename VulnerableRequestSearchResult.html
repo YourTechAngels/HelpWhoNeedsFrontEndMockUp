@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https:/cdn.muicss.com/mui-0.10.3/css/mui.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="index.css">
+
+    <title>Request task</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script> $(function () { $("#datepicker").datepicker(); }); </script>
+</head>
+
+<body>
+    <header class="mui-appbar mui--z1 purple-col">
+        <!-- Appbar HTML goes here -->
+        <div class="mui-container">
+            <table>
+                <tr class="mui--appbar-height">
+                    <td class="mui--text-title">Help Who Needs</td>
+                    <td class="mui--text-right">
+                        <ul class="mui-list--inline mui--text-body2">
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </header>
+    <div id="content-wrapper">
+        <div class="mui--appbar-height"></div>
+        <h1 class="mui--text-center">Request Task</h1>
+        <div class="mui-container">
+            <form class="mui-form">
+                <div class="mui-row">
+                    <div class="mui-col-xs-12 mui-col-md-12">
+                        <label for='label-dropdown' class='mui-col-xs-6 mui-col-md-6'> Task
+                            <select id='label-dropdown' value='Choose a task' name="Select a Task">
+                                <option>Shopping for essentials</option>
+                                <option>Collecting a prescription</option>
+                                <option>Accompanying for GP Appointment</option>
+                                <option>Virtual chat/call</option>
+                            </select>
+                        </label>
+                    </div>
+                </div>
+
+
+                <div class="mui-row">
+                    <div class="mui-col-xs-12 mui-col-md-12">
+                        <label for="Task summary" class="mui-col-xs-12 mui-col-md-12">Task Summary</label>
+                        <textarea id="textArea" class="mui-col-xs-12 mui-col-md-12" name='Task Summary' rows='4'
+                            cols='4'></textarea>
+                    </div>
+                </div>
+
+                <div class="mui-row">
+                    <div class="mui-col-xs-12 mui-col-md-12">
+
+                        <label>Please select preferred day or date:</label>
+                    </div>
+                </div>
+                <div class="mui-row">
+                    <div class="mui-col-xs-12 mui-col-md-12">
+                        <label for='radio button' class='mui-col-xs-12 mui-col-md-12'> Today
+                            <input type="radio" name="radio button" id="radio1" />AM
+                            <input type="radio" name="radio button" id="radio2" />PM
+                            <input type="radio" name="radio button" id="radio3" />Anytime
+
+                        </label>
+                    </div>
+                </div>
+
+                <div class="mui-row">
+                    <div class="mui-col-xs-12 mui-col-md-12">
+                        <label class='mui-col-xs-12 mui-col-md-12' for="Date">Date
+                            <input type=text name="Date" id="datepicker" value="Choose a date">
+                        </label>
+                    </div>
+                </div>
+                <div class="mui-row">
+                    <div class="mui-col-xs-12 mui-col-md-1">
+                        <button id="Search-button" class="mui-btn mui-btn--raised"
+                            onclick="location.href='#'">Search</button>
+                    </div>
+                </div>
+            </form>
+            <form class="mui-form">
+                <div class="mui-row">
+                    <label class="mui--divider-bottom">Volunteer matched</label>
+                    <br>
+                        <img src="person-icon.svg" height="20"><strong>&nbsp;Mary Brown</strong>
+                        <span></span>
+                    <!-- </div> -->
+                    <!-- <div class="mui-col-md-2 mui-col-md-offset-1"> -->
+                        <button id="vol-info-button" class="mui-btn mui-btn--raised">More Info</button>
+                    <!-- </div> -->
+                    <br><br>
+                    <label class="mui--divider-top">Do you want to confirm your request with the matched Volunteer?</label>
+                    <button id="confirm-vol-button" class="mui-btn mui-btn--raised">Confirm</button>
+                    <button id="cancel-vol-button" class="mui-btn mui-btn--raised">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    </div>
+
+    <footer>
+        <div class="mui-container mui--text-center">
+            Made by <a href="https://github.com/YourTechAngels">YourTechAngels</a>
+        </div>
+    </footer>
+</body>
+
+</html>
