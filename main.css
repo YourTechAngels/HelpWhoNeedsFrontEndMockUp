@@ -15,7 +15,7 @@ label {
 input, button  {
     margin-bottom: 10px;
     white-space:nowrap;
-  }
+}
 
 
 form {
@@ -24,6 +24,12 @@ form {
     margin: 0 auto;
     padding: 30px;
     border: 1px solid black;
+}
+
+#Search-button{
+    border:2px;
+   font-weight: bold;
+    margin-top:25px;
 }
 
 #submit-button {
