@@ -5,155 +5,182 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.muicss.com/mui-0.10.3/css/mui.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="index.css">
     <title>Registration</title>
 </head>
-
-<body class="mui-container">
-    <header>
-        <h1 class="mui--text-center">Registration</h1>
-        <h3>Volunteer Information</h3>
+<body>
+    <header class="mui-appbar mui--z1 purple-col">
+        <!-- Appbar HTML goes here -->
+        <div class="mui-container">
+            <table>
+                <tr class="mui--appbar-height">
+                    <td class="mui--text-title">Help Who Needs</td>
+                    <td class="mui--text-right">
+                        <ul class="mui-list--inline mui--text-body2">
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
     </header>
-    <main>
-        <p>Please fill in your details below:</p>
-        <!--Personal info-->
-        <form>
-            <div class="mui-row">
-                <div class="mui-col-xs-12 mui-col-md-6">
-                    <label for="firstname-input">First Name</label>
-                    <input id="firstname-input" class="mui-col-xs-12 mui-col-md-12"></input>
-                </div>
-                <div class=" mui-col-xs-12 mui-col-md-6">
-                    <label for="lastname-input">Last Name</label>
-                    <input id="lastname-input" class="mui-col-xs-12 mui-col-md-12"></input>
-                </div>
-            </div>
-
-            <div class="mui-row">
-                <div class=" mui-col-xs-12 mui-col-md-6">
-                    <label for="dob-input">Date Of Birth</label>
-                </div>
-            </div>
-            <div class="mui-row">
-                <div class=" mui-col-xs-12 mui-col-md-6">
-                    <input id="dob-input" class="mui-col-xs-12 mui-col-md-12"></input>
-                </div>
-            </div>
-
-            <div class="mui-row">
-                <div class=" mui-col-xs-12 mui-col-md-6">
-                    <label for="postcode-input">Postcode</label>
-                </div>
-            </div>
-
-            <div class="mui-row">
-                <div class=" mui-col-xs-12 mui-col-md-6">
-                    <input id="postcode-input" class="mui-col-xs-12 mui-col-md-8"></input>
-                    <button class="mui-col-xs-12 mui-col-md-4">Find Address</button>
-                </div>
-            </div>
-
-
-            <div class="mui-row">
-                <div class=" mui-col-xs-12 mui-col-md-12">
-                    <label for="address-input">Address</label>
-                </div>
-            </div>
-            <div class="mui-row">
-                <div class=" mui-col-xs-12 mui-col-md-12">
-                    <input id="address-input" class="mui-col-xs-12 mui-col-md-12"></input>
-                </div>
-            </div>
-
-            <div class="mui-row">
-                <div class=" mui-col-xs-12 mui-col-md-12">
-                    <label for="address2-input">Address2</label>
-                </div>
-            </div>
-            <div class="mui-row">
-                <div class=" mui-col-xs-12 mui-col-md-12">
-                    <input id="address2-input" class="mui-col-xs-12 mui-col-md-12"></input>
-                </div>
-            </div>
-
-            <div class="mui-row">
-                <div class="mui-col-xs-12 mui-col-md-6">
-                    <label for="city-input">City</label>
-                    <input id="city-input" class="mui-col-xs-12 mui-col-md-12"></input>
-
-                </div>
-                <div class=" mui-col-xs-12 mui-col-md-6">
-                    <label for="county-input">County</label>
-                    <input id="city-input" class="mui-col-xs-12 mui-col-md-12"></input>
-                </div>
-            </div>
-
-            <div class="mui-row">
-                <div class="mui-col-xs-12 mui-col-md-6">
-                    <label for="mobileNo-input">Mobile No</label>
-                    <input id="mobileNo-input" class="mui-col-xs-12 mui-col-md-12"></input>
-
-                </div>
-                <div class=" mui-col-xs-12 mui-col-md-6">
-                    <label for="phoneNo-input">Phone No</label>
-                    <input id="phoneNo-input" class="mui-col-xs-12 mui-col-md-12"></input>
-                </div>
-            </div>
-
-            <div class="mui-row">
-                <div class=" mui-col-xs-12 mui-col-md-12">
-                    <label for="email-input">Email Address</label>
-                </div>
-            </div>
-            <div class="mui-row">
-                <div class=" mui-col-xs-12 mui-col-md-12">
-                    <input for="email-input" class="mui-col-xs-12 mui-col-md-12"></input>
-                </div>
-            </div>
-
-            <div class="mui-row">
-                <div class="mui-col-xs-12 mui-col-md-6">
-                    <label for="password-input">Password</label>
-                    <input id="password-input" class="mui-col-xs-12 mui-col-md-12"></input>
-                </div>
-                <div class=" mui-col-xs-12 mui-col-md-6">
-                    <label for="confirmPassword-input">Confirm Password</label>
-                    <input id="confirmPassword-input" class="mui-col-xs-12 mui-col-md-12"></input>
-                </div>
-            </div>
-
-            <div class="mui-row">
-                <div class="mui-col-xs-12 mui-col-md-6">
-                    <label for="userName-input">User Name</label>
-                </div>
-            </div>
-            <div class="mui-row">
-                <div class=" mui-col-xs-12 mui-col-md-6">
-                    <input id="userName-input" class="mui-col-xs-12 mui-col-md-12"></input>
-                </div>
-            </div>
-
-
-            <div class="mui-row">
-                <div class=" mui-col-xs-12 mui-col-md-3">
-                    <label id="dbs-checkbox">Do you have a valid DBS certificate?</label>
-                </div>
-                <div class=" mui-col-xs-12 mui-col-md-1">
-                    <input type="checkbox" id="dbs-checkbox">
-                </div>
-            </div>
-
-            <div class="mui-row">
-                <div class=" mui-col-xs-12 mui-col-md-1">
-                    <button id="submit-button" class="mui-btn mui-btn--raised">Submit</button>
-                </div>
-            </div>
-
-
-            </div>
-
-        </form>
-    </main>
+    <div id="content-wrapper">
+        <!-- Content HTML goes here -->
+        <div class="mui--appbar-height"></div>
+        <div id="registration-body" class="mui-container">            
+                <h1  class="mui--text-center">Registration</h1>
+                <h3>Volunteer Information</h3>           
+            <main>
+                <p>Please fill in your details below:</p>
+                <!--Personal info-->
+                <form>
+                    <div class="mui-row">
+                        <div class="mui-col-xs-12 mui-col-md-6">
+                            <label for="firstname-input">First Name</label>
+                            <input id="firstname-input" class="mui-col-xs-12 mui-col-md-12"></input>
+                        </div>
+                        <div class=" mui-col-xs-12 mui-col-md-6">
+                            <label for="lastname-input">Last Name</label>
+                            <input id="lastname-input" class="mui-col-xs-12 mui-col-md-12"></input>
+                        </div>
+                    </div>
+        
+                    <div class="mui-row">
+                        <div class=" mui-col-xs-12 mui-col-md-6">
+                            <label for="dob-input">Date Of Birth</label>
+                        </div>
+                    </div>
+                    <div class="mui-row">
+                        <div class=" mui-col-xs-12 mui-col-md-6">
+                            <input id="dob-input" class="mui-col-xs-12 mui-col-md-12"></input>
+                        </div>
+                    </div>
+        
+                    <div class="mui-row">
+                        <div class=" mui-col-xs-12 mui-col-md-6">
+                            <label for="postcode-input">Postcode</label>
+                        </div>
+                    </div>
+        
+                    <div class="mui-row">
+                        <div class=" mui-col-xs-12 mui-col-md-6">
+                            <input id="postcode-input" class="mui-col-xs-12 mui-col-md-8"></input>
+                            <button class="mui-col-xs-12 mui-col-md-4">Find Address</button>
+                        </div>
+                    </div>
+        
+        
+                    <div class="mui-row">
+                        <div class=" mui-col-xs-12 mui-col-md-12">
+                            <label for="address-input">Address</label>
+                        </div>
+                    </div>
+                    <div class="mui-row">
+                        <div class=" mui-col-xs-12 mui-col-md-12">
+                            <input id="address-input" class="mui-col-xs-12 mui-col-md-12"></input>
+                        </div>
+                    </div>
+        
+                    <div class="mui-row">
+                        <div class=" mui-col-xs-12 mui-col-md-12">
+                            <label for="address2-input">Address2</label>
+                        </div>
+                    </div>
+                    <div class="mui-row">
+                        <div class=" mui-col-xs-12 mui-col-md-12">
+                            <input id="address2-input" class="mui-col-xs-12 mui-col-md-12"></input>
+                        </div>
+                    </div>
+        
+                    <div class="mui-row">
+                        <div class="mui-col-xs-12 mui-col-md-6">
+                            <label for="city-input">City</label>
+                            <input id="city-input" class="mui-col-xs-12 mui-col-md-12"></input>
+        
+                        </div>
+                        <div class=" mui-col-xs-12 mui-col-md-6">
+                            <label for="county-input">County</label>
+                            <input id="city-input" class="mui-col-xs-12 mui-col-md-12"></input>
+                        </div>
+                    </div>
+        
+                    <div class="mui-row">
+                        <div class="mui-col-xs-12 mui-col-md-6">
+                            <label for="mobileNo-input">Mobile No</label>
+                            <input id="mobileNo-input" class="mui-col-xs-12 mui-col-md-12"></input>
+        
+                        </div>
+                        <div class=" mui-col-xs-12 mui-col-md-6">
+                            <label for="phoneNo-input">Phone No</label>
+                            <input id="phoneNo-input" class="mui-col-xs-12 mui-col-md-12"></input>
+                        </div>
+                    </div>
+        
+                    <div class="mui-row">
+                        <div class=" mui-col-xs-12 mui-col-md-12">
+                            <label for="email-input">Email Address</label>
+                        </div>
+                    </div>
+                    <div class="mui-row">
+                        <div class=" mui-col-xs-12 mui-col-md-12">
+                            <input for="email-input" class="mui-col-xs-12 mui-col-md-12"></input>
+                        </div>
+                    </div>
+        
+                    <div class="mui-row">
+                        <div class="mui-col-xs-12 mui-col-md-6">
+                            <label for="password-input">Password</label>
+                            <input id="password-input" class="mui-col-xs-12 mui-col-md-12"></input>
+                        </div>
+                        <div class=" mui-col-xs-12 mui-col-md-6">
+                            <label for="confirmPassword-input">Confirm Password</label>
+                            <input id="confirmPassword-input" class="mui-col-xs-12 mui-col-md-12"></input>
+                        </div>
+                    </div>
+        
+                    <div class="mui-row">
+                        <div class="mui-col-xs-12 mui-col-md-6">
+                            <label for="userName-input">User Name</label>
+                        </div>
+                    </div>
+                    <div class="mui-row">
+                        <div class=" mui-col-xs-12 mui-col-md-6">
+                            <input id="userName-input" class="mui-col-xs-12 mui-col-md-12"></input>
+                        </div>
+                    </div>
+        
+        
+                    <div class="mui-row">
+                        <div class=" mui-col-xs-12 mui-col-md-3">
+                            <label id="dbs-checkbox">Do you have a valid DBS certificate?</label>
+                        </div>
+                        <div class=" mui-col-xs-12 mui-col-md-1">
+                            <input type="checkbox" id="dbs-checkbox">
+                        </div>
+                    </div>
+        
+                    <div class="mui-row">
+                        <div class=" mui-col-xs-12 mui-col-md-1">
+                            <button id="submit-button" class="mui-btn mui-btn--raised">Submit</button>
+                        </div>
+                    </div>
+        
+        
+                    </div>
+        
+                </form>
+            </main>
+        </div>
+    </div>
+    <footer>
+        <div class="mui-container mui--text-center">
+            Made by <a href="https://github.com/YourTechAngels">YourTechAngels</a>
+        </div>
+    </footer>
 </body>
+
+
+
 
 </html>
